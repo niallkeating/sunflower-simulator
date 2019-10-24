@@ -38,11 +38,12 @@ hdlr_install(void)
 	unsigned char *		srcptr = &vec_stub_begin;
 
 
-	/*	Copy the vector instructions to vector base	*/
+	/*	Copy the vector instructions to vector base	
 	while (srcptr < &vec_stub_end)
 	{
 		*dstptr++ = *srcptr++;
 	}
 
 	return;
+	*/
 }
